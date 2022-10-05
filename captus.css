@@ -15,7 +15,7 @@
 
 }
 .circel{
-    position: relative;
+    position: relative;/*declara al padre*/
     display: flex;/*bucasr*/
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@
 
 
 .pot{
-    position: absolute;
+    position: absolute; /*lo que hace es poner el elemento relativo al padre por eso puedo usar porcentajes y eos */
     border-bottom: 25vmin solid#835050;
     border-left: 10vmin solid transparent;
     border-right: 10vmin solid transparent;
